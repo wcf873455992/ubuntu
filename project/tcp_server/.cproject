@@ -39,6 +39,7 @@
 								<option id="gnu.c.compiler.option.include.paths.1990070460" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/usr/include"/>
 									<listOptionValue builtIn="false" value="/usr/include//x86_64-linux-gnu/"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/libxml2"/>
 								</option>
 								<option id="gnu.c.compiler.option.warnings.allwarn.1217131442" name="All warnings (-Wall)" superClass="gnu.c.compiler.option.warnings.allwarn" value="false" valueType="boolean"/>
 								<option id="gnu.c.compiler.option.warnings.toerrors.940977386" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" value="true" valueType="boolean"/>

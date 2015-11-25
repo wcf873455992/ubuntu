@@ -6,13 +6,40 @@
 #include <netinet/in.h>
 #include <netdb.h>
 
+#include <libxml/parser.h>
+#include <libxml/tree.h>
+//#include <iostream.h>
+
 #define LISTENQ 	5
 #define MAXLINE 	512
 #define HOST_ADDR	"192.168.1.21"
 #define SERVER_PORT	9001
 
-int main(int argc, char *argv[])
+
+int server_main(int argc, char *argv[]);
+int xml_main(int argc, char* argv[]);
+
+
+int main(int argc, char* argv[])
 {
+	xml_main();
+	//server_main();
+
+}
+
+
+int xml_main(int argc, char* argv[])
+{
+
+}
+
+int server_main(int argc, char *argv[])
+{
+
+	//xmlmain(argc, argv[]);
+	xmlmain();
+
+
 	int listenfd,flag,connfd;
 	uint32_t ip;
 	socklen_t len;
