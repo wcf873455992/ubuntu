@@ -8,8 +8,8 @@
 
 #define LISTENQ 	5
 #define MAXLINE 	512
-#define HOST_ADDR	"192.168.40.100"
-#define SERVER_PORT	7780
+#define HOST_ADDR	"192.168.1.21"
+#define SERVER_PORT	9001
 
 int main(int argc, char *argv[])
 {

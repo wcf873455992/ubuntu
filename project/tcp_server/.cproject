@@ -32,7 +32,7 @@
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.253414785.2049578218" name="/" resourcePath="">
 						<toolChain errorParsers="" id="cdt.managedbuild.toolchain.gnu.base.183922672" name="cdt.managedbuild.toolchain.gnu.base" superClass="cdt.managedbuild.toolchain.gnu.base">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.584878498" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="${workspace_loc:/tcp_server/Default}" errorParsers="" id="cdt.managedbuild.target.gnu.builder.base.636229381" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<builder buildPath="${workspace_loc:/tcp_server}" errorParsers="" id="cdt.managedbuild.target.gnu.builder.base.636229381" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.base.814614896" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.505946385" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
 							<tool errorParsers="" id="cdt.managedbuild.tool.gnu.c.compiler.base.1275649754" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
@@ -40,8 +40,8 @@
 									<listOptionValue builtIn="false" value="/usr/include"/>
 									<listOptionValue builtIn="false" value="/usr/include//x86_64-linux-gnu/"/>
 								</option>
-								<option id="gnu.c.compiler.option.warnings.allwarn.1217131442" superClass="gnu.c.compiler.option.warnings.allwarn" value="false" valueType="boolean"/>
-								<option id="gnu.c.compiler.option.warnings.toerrors.940977386" superClass="gnu.c.compiler.option.warnings.toerrors" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.allwarn.1217131442" name="All warnings (-Wall)" superClass="gnu.c.compiler.option.warnings.allwarn" value="false" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.warnings.toerrors.940977386" name="Warnings as errors (-Werror)" superClass="gnu.c.compiler.option.warnings.toerrors" value="true" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1884749648" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
 							<tool errorParsers="" id="cdt.managedbuild.tool.gnu.c.linker.base.308391082" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base">

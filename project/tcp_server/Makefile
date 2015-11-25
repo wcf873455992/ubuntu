@@ -15,7 +15,7 @@ CFLAGS = -Wall -O -g
 ALL += $(obj)main
 
 all:		$(ALL)
-		
+
 $(obj)main : $(OBJS)
 	$(CC)   $(OBJS) -o main 
 
