@@ -337,7 +337,7 @@ static int __init scull_init_module(void)
   }
   scull_devices = kmalloc(scull_nr_devs * sizeof(struct scull_dev), GFP_KERNEL);
   if(!scull_devices){
-    result = 0;//-ENOMEN;
+    result = -ENOMEM;
     goto fail;
   }
   memset(scull_devices, 0, scull_nr_devs * sizeof(struct scull_dev));
