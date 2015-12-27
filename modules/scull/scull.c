@@ -305,6 +305,7 @@ void scull_cleanup_module(void)
   unregister_chrdev_region(devno, scull_nr_devs);
   //scull_p_cleanup();
   //scull_accsess_cleanup();
+  printk(KERN_ALERT "rmmod scull\n");
 }
 
 static void scull_setup_cdev(struct scull_dev * dev, int index)
