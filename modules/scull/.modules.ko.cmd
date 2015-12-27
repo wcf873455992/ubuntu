@@ -1,0 +1,1 @@
+cmd_/home/wcf/code/ubuntu/modules/scull/modules.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-53-generic/scripts/module-common.lds --build-id  -o /home/wcf/code/ubuntu/modules/scull/modules.ko /home/wcf/code/ubuntu/modules/scull/modules.o /home/wcf/code/ubuntu/modules/scull/modules.mod.o

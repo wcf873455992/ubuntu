@@ -1,0 +1,8 @@
+#include <linux/module.h>
+#include <linux/init.h>
+#include <linux/moduleparam.h>
+
+MODULE_AUTHOR("WCF");
+MODULE_LICENSE("GPL");
+
+

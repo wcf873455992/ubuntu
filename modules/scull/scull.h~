@@ -1,0 +1,9 @@
+#ifndef _SCULL_H
+#define _SCULL_H
+
+
+struct scull{
+
+}Scull;
+
+#endif

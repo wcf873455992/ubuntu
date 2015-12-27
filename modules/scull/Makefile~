@@ -1,0 +1,4 @@
+
+
+obj-m := modules.o
+modules-objs := scull.o

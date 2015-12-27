@@ -1,0 +1,15 @@
+
+
+
+obj-m := modules.o
+modules-objs:= hello.o
+
+#KDIR := /lib/modules/'uname -r'/build
+KDIR := /lib/modules/3.13.0-53-generic/build
+PWD :=$(shell pwd)
+
+default:
+	make -C $(KDIR) M=$(PWD) modules
+
+clean:
+	rm -rf *.o *.cmd *.ko *.mod.c .tmp_version
