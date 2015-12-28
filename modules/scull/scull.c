@@ -277,12 +277,12 @@ int scull_release(struct inode *inode, struct file *filp)
 }
 
 struct file_operations scull_fops = {
-  .owner = THIS_MODULE,
-  .llseek = scull_llseek,
-  .read = scull_read,
-  .write = scull_write,
+  .owner   = THIS_MODULE,
+  .llseek  = scull_llseek,
+  .read    = scull_read,
+  .write   = scull_write,
   //.ioctl = scull_ioctl,
-  .open = scull_open,
+  .open    = scull_open,
   .release = scull_release,
 };
 
